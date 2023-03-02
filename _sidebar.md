@@ -1,0 +1,4 @@
+- [Cursusmateriaal](/cursus/)
+  - [01. Pas een bestaande webpagina aan](cursus/01-bestaande-pagina.md)
+  - [02. Gebruik een betere editor](cursus/02-betere-editor.md)
+  - [03. Wat is HTML(5)?](cursus/03-html-5.md)
