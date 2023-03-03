@@ -6,7 +6,7 @@ Je ziet door de haakjes het bos niet meer en als je een fout maakt, helpt kladbl
 
 ## Account maken op Github
 
-1. Ga naar [Github.](https://github.com/)
+1. Ga naar [github.com](https://github.com/)
 2. Vul je e-mailadres in en maak een gratis account. (Zorg dat je toegang hebt tot deze e-mailaccount.)
 3. Kies een paswoord dat je kan onthouden, maar dat toch sterk is.
 4. Kies een user name.
