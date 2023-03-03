@@ -1,5 +1,11 @@
 # Meer leren?
 
+## Thuis verder proberen
+
+Je kan thuis verder werken aan je site door aan te melden op GitHub. Als je dan op je mijn-site repository klikt, kan je die opnieuw openen via Codespaces. Je kan dit 60 uur per maand gebruiken. Als je meer nodig hebt, is het handiger om met Visual Studio Code te werken. Als ik tijd heb, voeg ik hier nog de uitleg toe hoe je dan met je project kan connecteren en hoe je je site verder kan updaten.
+
+## Online bijleren
+
 Als je geprikkeld bent door deze materie en je wil graag meer leren, vind je hier een paar goede sites om je op weg te zetten:
 
 - [Learn web development | Mozilla Webdeveloper Network](https://developer.mozilla.org/en-US/docs/Learn)
