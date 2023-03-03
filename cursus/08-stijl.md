@@ -2,7 +2,11 @@
 
 Op dit moment ziet je pagina er nog heel saai uit, ze heeft gewoon geen shtijl.
 
+![geen shtijl](_images/geenstijl.png)
+
 We zouden (voorlopig) graag hebben dat onze pagina een beetje aangepast is aan de Thomas More huisstijl. Zoals dit dus:
+
+![beetje stijl](_images/beetjestijl.png)
 
 Jullie zullen nu proberen om je pagina’s hetzelfde uitzicht te geven.
 
