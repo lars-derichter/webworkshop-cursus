@@ -17,4 +17,4 @@
   - [16. Stylesheet](cursus/16-stylesheet.md)
   - [17. Publiceren](cursus/17-publiceren.md)
   - [18. Codespaces afsluiten]()
-  - [19. Meer leren?](cursus/18-meer-leren.md)
+  - [19. Meer leren?](cursus/19-meer-leren.md)
