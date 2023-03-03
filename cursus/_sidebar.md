@@ -11,3 +11,8 @@
   - [10. CSS Syntax](cursus/10-css-syntax.md)
   - [11. Links](cursus/11-links.md)
   - [12. Profielfoto](cursus/12-afbeeldingen.md)
+  - [13. Nadruk](cursus/13-nadruk.md)
+  - [14. Tekstopmaak](cursus/14-tekstopmaak.md)
+  - [15. Meer pagina’s](cursus/15-meer-paginas.md)
+  - [16. Stylesheet](cursus/16-stylesheet.md)
+  - [17. Publiceren](cursus/17-publiceren.md)
