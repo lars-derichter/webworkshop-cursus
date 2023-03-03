@@ -12,7 +12,7 @@ Via Github heb je ook een vorm van gratis web hosting. Om die te gebruiken vanui
 8. Bevestig de repo door op je [ENTER]-toets te drukken. (Dit is vanzelf de juiste repo als je daarstraks je Codespaces correct hebt opgestart)
 9. Rechtsonderaan bevestig je door op de blauwe knop te klikken.
 
-Na enkele minuten is je site beschikbaar op het adres: https://github.io/JOUW-USERNAME/mijn-site
+Na enkele minuten is je site beschikbaar op het adres: https://JOUW-USERNAME.github.io/mijn-site
 
 Als je verdere aanpassingen aan je site doet zijn een paar extra stappen nodig om de nieuwe versie te publiceren. Ik doe vboor, maar hier de samenvatting:
 
