@@ -16,3 +16,4 @@
   - [15. Meer pagina’s](cursus/15-meer-paginas.md)
   - [16. Stylesheet](cursus/16-stylesheet.md)
   - [17. Publiceren](cursus/17-publiceren.md)
+  - [18. Meer leren?](cursus/18-meer-leren.md)
