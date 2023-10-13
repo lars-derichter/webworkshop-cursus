@@ -23,7 +23,7 @@ HTML-elementen worden gemarkeerd met tags:
 
 ### Closing tags
 
-Op enkele uitzonderingen na staat tekst (of andere inhoud) steeds tussen een ‘opening tag’ (bijv. <p>) en een ‘closing tag’ (bijv. </p>):
+Op enkele uitzonderingen na staat tekst (of andere inhoud) steeds tussen een ‘opening tag’ (bijv. `<p>`) en een ‘closing tag’ (bijv. `</p>`):
 
 - Een ‘closing tag’ begint met een 'opening bracket' gevolgd door een 'forward slash’: `</`
 - dan de naam van de tag (bijv. `p`)
