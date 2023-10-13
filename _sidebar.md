@@ -16,5 +16,5 @@
   - [15. Meer pagina’s](cursus/15-meer-paginas.md)
   - [16. Stylesheet](cursus/16-stylesheet.md)
   - [17. Publiceren](cursus/17-publiceren.md)
-  - [18. Codespaces afsluiten]()
+  - [18. Codespaces afsluiten](cursus/18-afsluiten.md)
   - [19. Meer leren?](cursus/19-meer-leren.md)
