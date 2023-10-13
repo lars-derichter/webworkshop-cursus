@@ -13,7 +13,7 @@ Als je geprikkeld bent door deze materie en je wil graag meer leren, vind je hie
 - [w3schools](https://www.w3schools.com/)
 - [freeCodeCamp](https://www.freecodecamp.org/)
 
-of nog beter: kom Programmeren studeren op THomas More.
+of nog beter: [kom Programmeren studeren](https://thomasmore.be/nl/opleidingen/graduaat/programmeren/antwerpen/basistraject) op [Thomas More Hogeschool.](https://www.thomasmore.be/)
 
 ## Bedankt
 
