@@ -1,3 +1,5 @@
+# CSS Syntax
+
 Laat ons vertrekken vanuit een voorbeeld:
 
 ```css

@@ -2,7 +2,7 @@
 
 Nu is het jouw beurt! Je zal je eigen HTML-pagina maken vanaf een leeg document.
 
-1. Open het bestand _index.html_ in Codespaces.
+1. Open het bestand _index.html_ in Codespaces of VSCode.
 3. Maak je eigen minimale HTML-document
 4. Open het in de browser door rechtsonder op **Go Live** te klikken.
 5. Elke keer dat je een aanpassing opslaat met [CTRL]+[S] zal je browser automatisch de pagina verversen. Je ziet dus onmiddellijk resultaat.

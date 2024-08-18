@@ -1,6 +1,7 @@
 # Links
 
 ## 🧪 Een link met je school
+
 Hypertext zou geen hypertext zijn zonder links. Alleen is ook maar alleen. Om je pagina deel te maken van het wereldwijde web, moet je ze kunnen linken met andere pagina’s en sites.
 
 Bekijk de broncode van de pagina: [http://larsderichter.be/user-interfaces/module-1/links.html](http://larsderichter.be/user-interfaces/module-1/links.html).
