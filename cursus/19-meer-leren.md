@@ -17,4 +17,6 @@ of nog beter: [kom Programmeren studeren](https://thomasmore.be/nl/opleidingen/g
 
 ## Bedankt
 
-Bedankt voor jullie aandacht. Ik hoop dat jullie iets hebben bijgeleerd. Misschien tot een volgende keer op een open campusdag of wie weet in een les.
+Bedankt voor jullie aandacht. Ik hoop dat jullie iets hebben bijgeleerd. Misschien tot een volgende keer op een workshop, een open campusdag of wie weet in een les.
+
+ps. Ben je leerkracht, bekijk zeker een keer het aanbod [Workshops voor klassen van Thomas More](https://thomasmore.be/nl/agenda/workshops-op-aanvraag-voor-secundaire-scholen)

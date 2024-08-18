@@ -48,6 +48,28 @@ Als je dat in het head-element van al je html bestanden doet, krijgen ze allemaa
     </tbody>
 </table>
 
+<table style="width: 100%; border-collapse: collapse; border-style: none;" border="1">
+    <tbody>
+        <tr>
+            <td style="width: 8%; border-color: #64C8C8; background-color: #64c8c8; text-align: center; vertical-align: middle;"><span style="font-size: 48px;">🚸</span></td>
+            <td style="border-style: solid; border-color: #64C8C8; text-align: left; vertical-align: middle;">
+                <p>Bekijk <a class="inline_disabled" href="https://lars-derichter.github.io/user-interfaces-files/01-basis-website/profiel-metstylesheet.html" target="_blank" rel="noopener">mijn voorbeeldcode</a>. Als je in de broncode op de link <a class="html-attribute-value html-resource-link" href="https://lars-derichter.github.io/user-interfaces-files/01-basis-website/styles.css" target="_blank" rel="noopener">styles.css</a> klikt, zie je de inhoud van het stylesheet bestand.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table style="width: 100%; border-collapse: collapse; border-style: none;" border="1">
+    <tbody>
+        <tr>
+            <td style="width: 8%; border-color: #FA6432; background-color: #fa6432; text-align: center; vertical-align: middle;"><span style="font-size: 48px;">💣</span></td>
+            <td style="border-style: solid; border-color: #FA6432; text-align: left; vertical-align: middle;">
+                <p>Let op dat je geen html-tags in je stylesheet zet, enkel stijlregels❗️</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ## Stylesheet
 
 Zo een apart css-bestand met stijlregels in noemen we een stylesheet.

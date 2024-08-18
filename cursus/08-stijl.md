@@ -24,7 +24,18 @@ Jullie zullen nu proberen om je pagina’s hetzelfde uitzicht te geven.
 
 Als we nu de kleur van je h1-element aanpassen naar #f04c25 (de hexadecimale RGB-waarde voor Thomas-More-rood) en de grootte naar 24 pixels, krijg je dit in je head:
 
-<style> h1 { color: #f04c25; font-size: 24px; }</style>
+```html
+<style>
+  h1 {
+    font-family: "Century Gothic", sans-serif;
+    color: #fa6432;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+  }
+</style>
+```
+
 ## Thomas-More-stijl
 
 Je krijgt een overzichtstabel met de selectoren, de properties en de values die je nodig hebt om onze versie van de Thomas-More-stijl toe te passen. Pas je HTML-document op basis hiervan aan, sla het op en probeer uit.
@@ -79,13 +90,13 @@ Probeer op basis van de namen ook uit te vinden wat elke eigenschap doet. Voel j
             </td>
             <td style="width: 33.3333%; height: 29px;">
                 <div>
-                    <div><span style="color: #000000;">#f04c25</span></div>
+                    <div><span style="color: #000000;">#fa6432</span></div>
                 </div>
             </td>
         </tr>
         <tr style="height: 29px;">
             <td style="width: 33.3333%; height: 29px;"><span style="color: #000000;">font-weight</span></td>
-            <td style="width: 33.3333%; height: 29px;"><span style="color: #000000;">600</span></td>
+            <td style="width: 33.3333%; height: 29px;"><span style="color: #000000;">bold</span></td>
         </tr>
         <tr style="background-color: #ccc;">
             <td style="width: 33.3333%; height: 116px;" rowspan="4"><span style="color: #000000;">h2</span></td>
@@ -112,7 +123,7 @@ Probeer op basis van de namen ook uit te vinden wat elke eigenschap doet. Voel j
             </td>
             <td style="width: 33.3333%; height: 29px;">
                 <div>
-                    <div><span style="color: #000000;">#009cab</span></div>
+                    <div><span style="color: #000000;">#00283c</span></div>
                 </div>
             </td>
         </tr>
@@ -143,7 +154,7 @@ Probeer op basis van de namen ook uit te vinden wat elke eigenschap doet. Voel j
                     <div><span style="color: #000000;">color</span></div>
                 </div>
             </td>
-            <td style="width: 33.3333%;"><span style="color: #000000;">#111111</span></td>
+            <td style="width: 33.3333%;"><span style="color: #000000;">#000a1e;</span></td>
         </tr>
         <tr>
             <td style="width: 33.3333%; height: 29px;"><span style="color: #000000;">font-weight</span></td>

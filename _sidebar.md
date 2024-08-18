@@ -1,6 +1,6 @@
 - [Cursusmateriaal](/cursus/)
-  - [01. Pas een bestaande webpagina aan](cursus/01-bestaande-pagina.md)
-  - [02. Gebruik een betere editor](cursus/02-betere-editor.md)
+  - [01. Broncode bekijken](cursus/01-broncode-bekijken.md)
+  - [02. Gebruik een betere editor](cursus/02-goede-editor.md)
   - [03. HTML(5)](cursus/03-html-5.md)
   - [04. HTML elementen](cursus/04-html-elementen.md)
   - [05. HTML attributen](cursus/05-html-attributen.md)

@@ -57,4 +57,4 @@ Het zou leuk zijn om toch al een beetje inhoud te hebben:
 
 (Let nog niet op het uitzicht, daar komen we straks toe. Herinner je dat HTML enkel de structuur van een bestand beschrijft, niet hoe het er moet uitzien.)
 
-Je kan mijn versie van de startpagina hier vinden: http://larsderichter.be/user-interfaces/module-1/geenstijl.html. Je weetnog wel hoe je de broncode kan bekijken.
+Je kan mijn versie van de startpagina hier vinden: http://larsderichter.be/user-interfaces/module-1/geenstijl.html. Je weet nog wel hoe je de broncode kan bekijken.

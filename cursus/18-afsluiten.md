@@ -1,6 +1,6 @@
 # Codespaces afsluiten
 
-Voor je vertrekt, sluit je best je Codespaces sessie af:
+Als Codespaces gebruikt, sluit best nu Codespaces sessie af:
 
 1. Druk tegelijk [CTRL]+[SHIFT]+[P] in op je toetsenbord.
 2. Tik **codespaces**.
