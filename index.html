@@ -1,16 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl-be">
   <head>
     <meta charset="UTF-8" />
-    <title>Workshop HTML &amp; CSS</title>
+    <title>Programming Fundamentals Cursus</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description" />
+    <meta
+      name="description"
+      content="Cursusmateriaal voor het vak Programming Fundamentals in het graduaat Programmeren aan de Thomas More Hogeschool - campus Antwerpen."
+    />
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Theme: Simple -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-plugin-toc@1/dist/light.min.css"
+    />
+    <link rel="stylesheet" href="style/tm-theme.css" />
   </head>
   <body>
     <div id="app"></div>
@@ -19,7 +40,7 @@
         name: "Webworkshop",
         repo: "lars-derichter/webworkshop-cursus",
         loadSidebar: true,
-        subMaxLevel: 3,
+        subMaxLevel: 0,
         auto2top: true,
         markdown: {
           gfm: true,
@@ -33,24 +54,95 @@
           crossChapter: true,
           crossChapterText: true,
         },
+        tabs: {
+          theme: "material",
+        },
+        "flexible-alerts": {
+          // implement my own icons & add extra types
+          note: {
+            label: "Info",
+            icon: "icon-iinfo",
+            className: "iinfo",
+          },
+          tip: {
+            label: "Tip",
+            icon: "icon-ttip",
+            className: "ttip",
+          },
+          important: {
+            label: "Belangrijk",
+            icon: "icon-iimportant",
+            className: "iimportant",
+          },
+          warning: {
+            label: "Waarschuwing",
+            icon: "icon-wwarning",
+            className: "wwarning",
+          },
+          attention: {
+            label: "Opgepast",
+            icon: "icon-aattention",
+            className: "aattention",
+          },
+          check: {
+            label: "Denk na",
+            icon: "icon-check",
+            className: "check",
+          },
+        },
+        toc: {
+          tocMaxLevel: 4,
+          target: "h2, h3, h4, h5",
+        },
       };
     </script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.13.0/docsify.min.js"
-      integrity="sha512-Qf5jm6dXW/In/Xgh12itTxddJYBkRVno1mWciQp3L4cQM9qlXj08kwuiOQsugbpZF32LRPhMueVZDHxNMVuGuw=="
+      src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"
+      integrity="sha256-kSP4CNP2rXNrSo+ZlEphH4fF1PkygDAIClwCntX0UKU="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-    <script src="https://unpkg.com/docsify-copy-code@2"></script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js"
-      integrity="sha512-UOoJElONeUNzQbbKQbjldDf9MwOHqxNz49NNJJ1d90yp+X9edsHyJoAs6O4K19CZGaIdjI5ohK+O2y5lBTW6uQ=="
+      src="https://cdn.jsdelivr.net/npm/docsify-themeable@0.9/dist/js/docsify-themeable.min.js"
+      integrity="sha256-bVnj7YIW+e/vEdjII6iRnV2D7SdGDy8Nvg7N4kH9TRI="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"
+      integrity="sha256-F19ci6bw68/1RbJMgMM8eJv6uBpZVMep0Oav00ySJYU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse@1/dist/docsify-sidebar-collapse.min.js"
+      integrity="sha256-AiLzf2giwPrSxRIu3TUge9h/ddBAAB16gXGzhht/IDE="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts@1/dist/docsify-plugin-flexible-alerts.min.js"
+      integrity="sha256-aDoMTUhRtMldm7b/5kxFX7GGy21qamaVaLMNkOk17AU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"
+      integrity="sha256-zxjWF8K1PytAeqtsfF1d8OJot0wCi32wOUchda16XJI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/docsify-copy-code@3/dist/docsify-copy-code.min.js"
+      integrity="sha256-YubkbE4m9wecNfUmOSF5pQd0P6VC45tug6CV9IrBSp0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/docsify-plugin-toc@1/dist/docsify-plugin-toc.min.js"
+      integrity="sha256-jVFvjoRLUsipu9dFPbwbiK1VLttX6Me7eVH/F1TQ/XA="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/prism.min.js"></script>
+    <script type="module">
+      import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+      mermaid.initialize({ startOnLoad: true });
+      window.mermaid = mermaid;
+    </script>
+    <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
   </body>
 </html>

@@ -1,0 +1,145 @@
+/*****
+Fonts
+******/
+@font-face {
+  font-family: "TMCandor-Headline";
+  src: url("fonts/TMCandor-Headline.woff2") format("woff2"),
+    url("fonts/TMCandor-Headline.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TMCandor";
+  src: url("fonts/TMCandor-Light.woff2") format("woff2"),
+    url("fonts/TMCandor-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TMCandor";
+  src: url("fonts/TMCandor-SemiBold.woff2") format("woff2"),
+    url("fonts/TMCandor-SemiBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TMCandor";
+  src: url("fonts/TMCandor-LightItalic.woff2") format("woff2"),
+    url("fonts/TMCandor-LightItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/*************
+Adapted theme
+**************/
+
+:root {
+  --mono-hue: 220;
+  --mono-saturation: 10%;
+  --mono-tint1: #dee1e4;
+  --mono-tint2: #e8ebee;
+  --mono-tint3: #f2f5f8;
+
+  --base-color: #000a1e;
+  --base-font-family: "TMCandor", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --base-font-weight: normal;
+  --base-font-size: 1.1rem;
+
+  --theme-hue: 200;
+  --theme-saturation: 100%;
+  --theme-lightness: 12%;
+
+  --heading-color: #fa6432;
+  --heading-font-family: "TMCandor-Headline", "Century Gothic", CenturyGothic, AppleGothic,
+    sans-serif;
+  --heading-font-weight: normal;
+
+  --strong-color: #00283c;
+
+  --sidebar-name-font-family: "TMCandor-Headline", "Century Gothic", CenturyGothic, AppleGothic,
+    sans-serif;
+  --sidebar-name-color: #fa6432;
+
+  --code-font-size: var(--font-size-m);
+}
+
+/*********************
+flexible-alert styles 
+**********************/
+
+.icon {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.alert.callout {
+  margin-top: 3rem !important;
+}
+
+.alert.callout ~ pre {
+  margin-top: 2rem !important;
+}
+
+.alert.callout.iinfo {
+  border-left-color: #00283c !important;
+}
+.alert.callout.iinfo .title {
+  color: #00283c;
+}
+.alert.callout.iinfo .icon-iinfo {
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' height='32px' viewBox='0 -960 960 960' width='32px' fill='%2300283c'><path d='M444-288h72v-240h-72v240Zm35.79-312q15.21 0 25.71-10.29t10.5-25.5q0-15.21-10.29-25.71t-25.5-10.5q-15.21 0-25.71 10.29t-10.5 25.5q0 15.21 10.29 25.71t25.5 10.5Zm.49 504Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z'/></svg>");
+}
+
+.alert.callout.ttip {
+  border-left-color: #fa6432 !important;
+}
+.alert.callout.ttip .title {
+  color: #fa6432;
+}
+.alert.callout.ttip .icon-ttip {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="%23fa6432"><path d="M400-240q-33 0-56.5-23.5T320-320v-50q-57-39-88.5-100T200-600q0-117 81.5-198.5T480-880q117 0 198.5 81.5T760-600q0 69-31.5 129.5T640-370v50q0 33-23.5 56.5T560-240H400Zm0-80h160v-92l34-24q41-28 63.5-71.5T680-600q0-83-58.5-141.5T480-800q-83 0-141.5 58.5T280-600q0 49 22.5 92.5T366-436l34 24v92Zm0 240q-17 0-28.5-11.5T360-120v-40h240v40q0 17-11.5 28.5T560-80H400Zm80-520Z"/></svg>');
+}
+
+.alert.callout.iimportant {
+  border-left-color: #00283c !important;
+}
+.alert.callout.iimportant .title {
+  color: #00283c;
+}
+.alert.callout.iimportant .icon-iimportant {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="%2300283c"><path d="M480-360q17 0 28.5-11.5T520-400q0-17-11.5-28.5T480-440q-17 0-28.5 11.5T440-400q0 17 11.5 28.5T480-360Zm-40-160h80v-240h-80v240ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>');
+}
+
+.alert.callout.wwarning {
+  border-left-color: #fa6432 !important;
+}
+.alert.callout.wwarning .title {
+  color: #fa6432;
+}
+.alert.callout.wwarning .icon-wwarning {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="%23fa6432"><path d="m40-120 440-760 440 760H40Zm138-80h604L480-720 178-200Zm302-40q17 0 28.5-11.5T520-280q0-17-11.5-28.5T480-320q-17 0-28.5 11.5T440-280q0 17 11.5 28.5T480-240Zm-40-120h80v-200h-80v200Zm40-100Z"/></svg>');
+}
+
+.alert.callout.aattention {
+  border-left-color: #fa6432 !important;
+}
+.alert.callout.aattention .title {
+  color: #fa6432;
+}
+.alert.callout.aattention .icon-aattention {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="%23fa6432"><path d="M480-280q17 0 28.5-11.5T520-320q0-17-11.5-28.5T480-360q-17 0-28.5 11.5T440-320q0 17 11.5 28.5T480-280Zm-40-160h80v-240h-80v240ZM330-120 120-330v-300l210-210h300l210 210v300L630-120H330Zm34-80h232l164-164v-232L596-760H364L200-596v232l164 164Zm116-280Z"/></svg>');
+}
+
+.alert.callout.check {
+  border-left-color: #00283c !important;
+}
+.alert.callout.check .title {
+  color: #00283c;
+}
+.alert.callout.check .icon-check {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="%2300283c"><path d="M480-80q-84.33 0-157.33-30.83-73-30.84-127-84.84t-84.84-127Q80-395.67 80-480q0-83.67 30.83-156.67 30.84-73 84.84-127t127-85.16Q395.67-880 480-880q71.67 0 134.33 22.33Q677-835.33 728-796l-48 48.33q-42-31.33-92.33-48.5-50.34-17.16-107.67-17.16-141 0-237.17 96.16Q146.67-621 146.67-480t96.16 237.17Q339-146.67 480-146.67t237.17-96.16Q813.33-339 813.33-480q0-26-3.66-51-3.67-25-11-48.67L851-632q14.33 35.33 21.67 73.33 7.33 38 7.33 78.67 0 84.33-31.17 157.33-31.16 73-85.16 127t-127 84.84Q563.67-80 480-80Zm-58-217.33L255.33-464.67 304-513.33l118 118L831.33-805l49.34 48.67-458.67 459Z"/></svg>');
+}
